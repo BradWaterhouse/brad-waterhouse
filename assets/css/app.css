@@ -36,6 +36,11 @@ body {
     letter-spacing: 3px;
 }
 
+.circle-image {
+    border-radius: 50%;
+    height: 60%;
+}
+
 .footer {
     background-color: #05386B;
 }
