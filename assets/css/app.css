@@ -1,0 +1,41 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background-color: #eeeeee !important;
+}
+
+.nav-bar {
+    background-color: #5CDB95;
+}
+
+.nav-link {
+    color: #05386B;
+    font-family: Avenir;
+    font-weight: bold;
+}
+
+.footer {
+    bottom:-0;
+    width: 100%;
+    background-color: #e1e1e1;
+}
+
+.masthead {
+    height: 50vh;
+    min-height: 400px;
+    /*background-color: #379683;*/
+    background-color: #5CDB95;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-text {
+    color: #EDF5E1;
+    font-family: Avenir;
+    letter-spacing: 3px;
+}
+
+.footer {
+    background-color: #05386B;
+}
