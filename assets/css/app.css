@@ -14,6 +14,13 @@ body {
     font-weight: bold;
 }
 
+.hamburger-menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 .footer {
     bottom:-0;
     width: 100%;
@@ -30,10 +37,41 @@ body {
     background-repeat: no-repeat;
 }
 
+.masthead-small {
+    height: 20vh;
+    min-height: 125px;
+    /*background-color: #379683;*/
+    background-color: #5CDB95;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .main-text {
     color: #EDF5E1;
     font-family: Avenir;
     letter-spacing: 3px;
+}
+
+.blog-title {
+    color: #05386B;
+    font-family: Avenir;
+    letter-spacing: 1px;
+}
+
+.date-label {
+    background-color: #5CDB95;
+    border-radius: 5px;
+}
+
+.heart-label {
+    background-color: #db5147;
+    border-radius: 5px;
+}
+
+.category-label {
+    background-color: #dbba59;
+    border-radius: 5px;
 }
 
 .circle-image {
@@ -43,4 +81,8 @@ body {
 
 .footer {
     background-color: #05386B;
+}
+
+.footer-text {
+    color: #EDF5E1;
 }
