@@ -79,6 +79,30 @@ body {
     height: 42%;
 }
 
+.portfolio_bg {
+    background-color: #EDF5E1;
+}
+
+.portfolio_button {
+    background-color: #5CDB95;
+    color: #EDF5E1;
+}
+
+.rounded-corners-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.rounded-corners-bottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.language-label {
+    background-color: #ffe500;
+    border-radius: 5px;
+}
+
 .footer {
     background-color: #05386B;
 }
