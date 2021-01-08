@@ -28,10 +28,10 @@ body {
 }
 
 .masthead {
-    height: 50vh;
+    height:35vh;
     min-height: 400px;
-    /*background-color: #379683;*/
-    background-color: #5CDB95;
+    /*background-color: #5CDB95;*/
+    background-color: #5CDB95;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,10 +47,25 @@ body {
     background-repeat: no-repeat;
 }
 
+ul {
+    width: 114px;
+    margin: 0;
+}
+
+.header-text {
+    color: #000000;
+    font-family: Avenir;
+    letter-spacing: 1px;
+}
+
 .main-text {
-    color: #EDF5E1;
+    color: #edf5e1;
     font-family: Avenir;
     letter-spacing: 3px;
+}
+
+.circle-heading {
+    margin-bottom: 50px;
 }
 
 .blog-title {
@@ -76,7 +91,6 @@ body {
 
 .circle-image {
     border-radius: 50%;
-    height: 42%;
 }
 
 .portfolio_bg {
