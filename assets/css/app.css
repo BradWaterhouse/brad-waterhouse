@@ -38,18 +38,13 @@ body {
 }
 
 .masthead-small {
-    height: 20vh;
+    height: 27vh;
     min-height: 125px;
     /*background-color: #379683;*/
     background-color: #5CDB95;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-ul {
-    width: 114px;
-    margin: 0;
 }
 
 .header-text {
@@ -97,8 +92,13 @@ ul {
     background-color: #EDF5E1;
 }
 
-.portfolio_button {
-    background-color: #5CDB95;
+.github-button {
+    background-color: #4a4a4a;
+    color: #EDF5E1;
+}
+
+.site-button {
+    background-color: #274386;
     color: #EDF5E1;
 }
 
@@ -124,3 +124,11 @@ ul {
 .footer-text {
     color: #EDF5E1;
 }
+
+.overlay {
+    width: 400px;
+    height: 80%;
+    padding: 70px;
+
+}
+
