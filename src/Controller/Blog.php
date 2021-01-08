@@ -18,4 +18,11 @@ final class Blog extends AbstractController
         return $this->render('Pages/blog.html.twig');
     }
 
+    /**
+     * @Route("/blog/test", name="blog_post", methods={"GET"})
+     */
+    public function post(): Response
+    {
+        return $this->render('Pages/blog_post.html.twig');
+    }
 }

@@ -132,3 +132,7 @@ body {
 
 }
 
+.subhead::first-letter {
+    font-size: 250%;
+}
+

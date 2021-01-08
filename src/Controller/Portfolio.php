@@ -13,9 +13,8 @@ final class Portfolio extends AbstractController
     /**
      * @Route("/portfolio", name="portfolio", methods={"GET"})
      */
-    public function blog():Response
+    public function portfolio(): Response
     {
         return $this->render('Pages/portfolio.html.twig');
     }
-
 }
