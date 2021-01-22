@@ -43,7 +43,6 @@ body {
     /*background-color: #379683;*/
     background-color: #5CDB95;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -125,14 +124,93 @@ body {
     color: #EDF5E1;
 }
 
-.overlay {
-    width: 400px;
-    height: 80%;
-    padding: 70px;
-
-}
-
 .subhead::first-letter {
     font-size: 250%;
+}
+
+
+body {
+    background-repeat-y: no-repeat;
+    overflow-x: hidden
+}
+
+.footer-title {
+    color: #ffffff;
+    font-family: Avenir;
+    letter-spacing: 1px;
+}
+
+.footer-card {
+    background-color: #05386B;
+    color: #fff
+}
+
+.footer-button {
+    color: #fff
+}
+
+.footer-button:hover {
+    color: #fff
+}
+
+.box {
+    margin-bottom: 60px;
+    margin-top: 20px
+}
+
+.form-control {
+    border: none;
+    margin-left: 0;
+    background-color: #05386B;
+    color: #fff
+}
+
+input {
+    border-bottom: 1px solid #fff !important;
+    border-radius: 0 !important
+}
+
+::-webkit-input-placeholder {
+    color: #E1F5FE !important
+}
+
+::-moz-placeholder {
+    color: #E1F5FE !important
+}
+
+:-ms-input-placeholder {
+    color: #E1F5FE !important
+}
+
+:-moz-placeholder {
+    color: #E1F5FE !important
+}
+
+.form-head {
+    padding-left: 10px;
+    padding-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px
+}
+
+.custom-control-label {
+    font-size: 14px !important
+}
+
+.get-input {
+    padding-left: 0
+}
+
+button {
+    color: #05386B !important;
+    font-weight: bold !important;
+    padding: 10px 20px 10px 20px !important;
+    border-radius: 0 !important
+}
+
+button:hover {
+    color: #1565C0 !important;
+    background-color: #fff
 }
 
